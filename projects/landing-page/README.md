@@ -1,13 +1,15 @@
 # Landing Page Project
+# Student : Andrei Badulescu
 
-## Table of Contents
-
-* [Instructions](#instructions)
+# Functionality 
+ This project is an exercise in Manipulating the DOM.
+ The project: 
+ * programmatically builds navigation bar at the top of the page
+ * scrolls to anchors when clicking the respective section in the navigation bar,
+ * highlights section in viewport upon scrolling.
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+Ive used the project and added 3 functions to the app.js file.
+I'e also made some minor modifications to css/styles.css. 
+To load the project , open index.html
