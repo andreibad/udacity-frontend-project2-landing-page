@@ -70,13 +70,12 @@ section {
     margin: 0;
     background-color: #cc1;
     grid-template-columns: repeat(10, 1fr);
-    grid-gap: 10px;
 }
 
 .navbar__menu li {
-    font-size: large;
+    font-size: small;
     color: #000;
-    padding: 20px;
+    white-space: nowrap;
 }
 
 .navbar__menu .menu__link {
@@ -125,6 +124,21 @@ section {
     .landing__container {
         max-width: 50em;
         padding: 4em;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    .navbar__menu li {
+        font-size: small;
+        color: #000;
+        padding: 4em;
+        white-space: nowrap;
+    }
+    .navbar__menu ul {
+        display: grid;
+        margin: 0;
+        background-color: #cc1;
+        grid-template-columns: repeat( auto-fit, minmax(100px, 1fr) );
     }
 }
 
